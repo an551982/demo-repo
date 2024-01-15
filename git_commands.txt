@@ -2,3 +2,18 @@
  git status
  git add .
  git commit -m "any message"
+ # check branches
+ git branch
+ # create new branch
+ # git checkout -b <name_of_branch>
+ git checkout -b feature-readme-instructions
+ git checkout main
+ git branch
+ git checkout feature-readme-instructions
+ # make changes to files
+ # git add <files_changed>
+ # git commit -m <"message">
+ # check differences with another branch with
+ # git diff <another_branch_name>
+ git check main
+   
