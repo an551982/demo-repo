@@ -16,4 +16,10 @@
  # check differences with another branch with
  # git diff <another_branch_name>
  git check main
-   
+ git checkout feature-readme-instructions
+ # set up remote branch
+ # git push, then copy the following command from the prompt
+ git push --set-upstream origin feature-readme-instructions
+ # --set-upstream can be -u
+ git push -u origin feature-readme-instructions 
+ 
