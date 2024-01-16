@@ -23,3 +23,15 @@
  # --set-upstream can be -u
  git push -u origin feature-readme-instructions 
  
+ # merge the new branch with a PR
+ # locally checkout the main branch
+ git checkout main
+ # pull changes from remote
+ git pull origin main
+ # or when the upstream is already set
+ git pull
+
+ # remove the merged branch locally
+ git branch -d feature-readme-instructions
+
+ # merge conflict resolving
