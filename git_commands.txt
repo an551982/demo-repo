@@ -35,3 +35,5 @@
  git branch -d feature-readme-instructions
 
  # merge conflict resolving
+ # create and checkout a new branch
+ git branch -b quick-test
