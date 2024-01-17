@@ -44,4 +44,7 @@
  git checkout "quick-test"
  # git diff main to see the differences
  git diff main
- git merge main
+ git merge main # merge conflict at this time
+ # the diff shows on the conflicted lines in the file. Can go and solve the conflict there.
+ # after solving the conflict manually, just commit the changes
+ 
