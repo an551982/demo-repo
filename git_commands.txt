@@ -37,3 +37,7 @@
  # merge conflict resolving
  # create and checkout a new branch
  git branch -b quick-test
+ # modify a file and
+ # add and commit when only one file is created?
+ git commit -am "index is only modified by not new"
+ 
