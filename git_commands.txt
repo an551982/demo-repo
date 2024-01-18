@@ -66,3 +66,7 @@
  git reset d952d99707785cf4706120b646477fbfb09a7e41
  # hard reset: to remove all changes after a commit instead of unstaging
  git reset --hard d952d99707785cf4706120b646477fbfb09a7e41
+ # fork
+ # fork to make my changes to the project
+ # fork to make changes and create PR to apply to change a project I don't have access too.
+ 
