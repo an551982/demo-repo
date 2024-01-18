@@ -47,4 +47,7 @@
  git merge main # merge conflict at this time
  # the diff shows on the conflicted lines in the file. Can go and solve the conflict there.
  # after solving the conflict manually, just commit the changes
+
+ # Undoing in git
+ 
  
