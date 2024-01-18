@@ -57,6 +57,12 @@
  # git reset HEAD~1
  # HEAD is the last commit (wrong commit that needs to be reset)
  # HEAD~1 is one commit before the last commit
- 
-
- 
+ git reset HEAD~1
+ # see all commits with
+ # git log
+ git log
+ # go back to a particular commit
+ # git reset [commit hash]
+ git reset d952d99707785cf4706120b646477fbfb09a7e41
+ # hard reset: to remove all changes after a commit instead of unstaging
+ git reset --hard d952d99707785cf4706120b646477fbfb09a7e41
