@@ -49,5 +49,14 @@
  # after solving the conflict manually, just commit the changes
 
  # Undoing in git
+ # Unstage
+ git reset
+ # or
+ git reset [file_name]
+ # Undo commit
+ # git reset HEAD~1
+ # HEAD is the last commit (wrong commit that needs to be reset)
+ # HEAD~1 is one commit before the last commit
  
+
  
